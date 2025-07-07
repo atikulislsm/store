@@ -15,7 +15,6 @@ class SignUpForm extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final dark=THelperFunctions.isDarkMode(context);
     return Form(
       child: Column(
         children: [
